@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11T09:29:22.374Z",
+  "source": "Ejecución web auxiliar de React Native/Expo; no Android ni iOS",
+  "viewport": {
+    "width": 393,
+    "height": 1000
+  },
+  "pageErrors": [],
+  "files": [
+    "01-acceso-demo.png",
+    "02-exploracion.png",
+    "03-busqueda.png",
+    "04-biblioteca-personal.png",
+    "05-portfolio-galeria.png",
+    "06-portfolio-editorial.png",
+    "07-portfolio-editorial-detalle.png"
+  ]
+}

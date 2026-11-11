@@ -1,0 +1,120 @@
+$ EXPO_OFFLINE=1 npm run check:versions
+
+> artium-hito-1@0.1.0 check:versions
+> expo install --check
+
+Dependency validation is unreliable in offline-mode
+Dependencies are up to date
+$ EXPO_OFFLINE=1 npm run export:android
+
+> artium-hito-1@0.1.0 export:android
+> expo export --platform android --output-dir dist/android
+
+Starting Metro Bundler
+
+| (node:5302) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:5302) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:5302) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Android Bundled 30425ms node_modules/expo-router/entry.js (1715 modules)
+
+› Assets (36):
+assets/artworks/a1.png (728KB)
+assets/artworks/a2.png (734KB)
+assets/artworks/a3.png (741KB)
+assets/artworks/a4.png (730KB)
+assets/artworks/a5.png (726KB)
+assets/artworks/a6.png (735KB)
+assets/fonts/Poppins-Medium.ttf (159KB)
+assets/fonts/Poppins-Regular.ttf (160KB)
+assets/fonts/Poppins-SemiBold.ttf (157KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf (56KB)
+node_modules/expo-router/assets/arrow_down.png (9.5KB)
+node_modules/expo-router/assets/arrow_right.xml (307B)
+node_modules/expo-router/assets/checkmark.xml (312B)
+node_modules/expo-router/assets/error.png (469B)
+node_modules/expo-router/assets/file.png (138B)
+node_modules/expo-router/assets/forward.png (188B)
+node_modules/expo-router/assets/pkg.png (364B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.png (653B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon.png (4 variations | 152B)
+node_modules/expo-router/assets/react-navigation/elements/clear-icon.png (4 variations | 425B)
+node_modules/expo-router/assets/react-navigation/elements/close-icon.png (4 variations | 235B)
+node_modules/expo-router/assets/react-navigation/elements/search-icon.png (4 variations | 599B)
+node_modules/expo-router/assets/sitemap.png (465B)
+node_modules/expo-router/assets/unmatched.png (4.8KB)
+
+› android bundles (1):
+_expo/static/js/android/entry-446e0038cfdcea5d323809825295aaae.hbc (4.6MB)
+
+› Files (1):
+metadata.json (2.4KB)
+
+Exported: dist/android
+$ EXPO_OFFLINE=1 npm run export:web
+
+> artium-hito-1@0.1.0 export:web
+> expo export --platform web --output-dir dist/web
+
+Starting Metro Bundler
+
+| (node:5478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:5478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:5478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Web Bundled 19130ms node_modules/expo-router/entry.js (987 modules)
+
+› Assets (28):
+assets/artworks/a1.f0973b0c31a24974600b7d4e9b1e23d3.png (728KB)
+assets/artworks/a2.661ff3b73603775c729bde737707368d.png (734KB)
+assets/artworks/a3.ca92dfec7272acc1c29d9f75a5e05889.png (741KB)
+assets/artworks/a4.ba8b852cc96750bda3f73958245d23a6.png (730KB)
+assets/artworks/a5.1571206a5b515c382128151e98a2d237.png (726KB)
+assets/artworks/a6.a9d5e222fee6472b79bd18ab53e4aa53.png (735KB)
+assets/fonts/Poppins-Medium.20aaac2ef92cddeb0f12e67a443b0b9f.ttf (159KB)
+assets/fonts/Poppins-Regular.09acac7457bdcf80af5cc3d1116208c5.ttf (160KB)
+assets/fonts/Poppins-SemiBold.2c63e05091c7d89f6149c274971c7c23.ttf (157KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ca4b48e04dc1ce10bfbddb262c8b835f.ttf (56KB)
+node_modules/expo-router/assets/arrow_down.017bc6ba3fc25503e5eb5e53826d48a8.png (9.5KB)
+node_modules/expo-router/assets/error.d1ea1496f9057eb392d5bbf3732a61b7.png (469B)
+node_modules/expo-router/assets/file.19eeb73b9593a38f8e9f418337fc7d10.png (138B)
+node_modules/expo-router/assets/forward.d8b800c443b8972542883e0b9de2bdc6.png (188B)
+node_modules/expo-router/assets/pkg.ab19f4cbc543357183a20571f68380a3.png (364B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.0a328cd9c1afd0afe8e3b1ec5165b1b4.png (653B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png (207B)
+node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55.png (4 variations | 425B)
+node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7.png (4 variations | 235B)
+node_modules/expo-router/assets/react-navigation/elements/search-icon.286d67d3f74808a60a78d3ebf1a5fb57.png (928B)
+node_modules/expo-router/assets/sitemap.412dd9275b6b48ad28f5e3d81bb1f626.png (465B)
+node_modules/expo-router/assets/unmatched.20e71bdf79e3a97bf55fd9e164041578.png (4.8KB)
+
+› web bundles (19):
+_expo/static/css/web-6fc2a58e8573c3b46a9e61af53753ec3.css (7.1KB)
+_expo/static/js/web/__common-9ffeb81c96100471427a9f25d5b9c351.js (665KB)
+_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js (3.8KB)
+_expo/static/js/web/_layout-8c9967dceac6112bdd206bb68cc895db.js (1.1KB)
+_expo/static/js/web/_layout-d3e0a013acc950d27fc5023215d67126.js (3KB)
+_expo/static/js/web/[id]-4c8f78cdc684b502de99463d7db7ae5c.js (205B)
+_expo/static/js/web/[id]-bb4f850fe1dc16eec7d5a67c2aebe880.js (241B)
+_expo/static/js/web/[id]-dead07b7aee8200b69817699d63c75c7.js (205B)
+_expo/static/js/web/+not-found-862a4a5df434dcfd6ba27d0c94710058.js (458B)
+_expo/static/js/web/editor-9af36476b4a3debf1ff699a7aa2de9d2.js (205B)
+_expo/static/js/web/entry-3854dce0eb6f0db89e878f01df023e88.js (1.1MB)
+_expo/static/js/web/index-7771811b631db2d3db82bb5112b770e1.js (203B)
+_expo/static/js/web/login-e58476da2e00bd0942fd556a0d766269.js (2.4KB)
+_expo/static/js/web/messages-e989626ed8dd3ae211e536d57f4fb49f.js (603B)
+_expo/static/js/web/new-822e3b8d0ab4f2d64adcb5c8c593b2c9.js (241B)
+_expo/static/js/web/portfolio-33c4e207682d3b8a852d36dbbefe5973.js (208B)
+_expo/static/js/web/preview-3f7ea09f921b06c8670c61984ef248b9.js (206B)
+_expo/static/js/web/profile-1abc431cca492064e4efc14618f3174e.js (4KB)
+_expo/static/js/web/search-ba48abab62fb451ea4690902fac9eefc.js (205B)
+
+› Files (2):
+index.html (1.6KB)
+metadata.json (49B)
+
+Exported: dist/web
